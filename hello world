@@ -14,22 +14,10 @@
     <br>
     <a href="https://www.youtube.com" target="_blank">Hellololololo World!!</a>
     <br>
-    <img src="" alt="莎头爆！" width="800" height="800">
+    <img src="C:\Users\peiha\OneDrive\Pictures\Camera Roll\WhatsApp 图像2024-09-28于13.57.43_37d44eff.jpg" alt="莎头爆！" width="800" height="800">
     <br>
     <button id="mimimimi">Click me to change color!</button>
   </div>
   <script src="script.js"></script>
 </body>
 </html>
-// Select the button
-const button = document.getElementById("mimimimi");
-
-// Add a click event listener
-button.addEventListener("click", () => {
-  // Change the background color of the div
-  const container = document.querySelector(".peepeepoopoo");
-  container.style.backgroundColor = "lightpink";
-
-  // Optional: Log a message to the console
-  console.log("Background color changed to lightpink!");
-});
