@@ -1,10 +1,35 @@
-<div class ="peepeepoopoo">
-  <h1>Hello world!</h1>
-  <p1>My name is Peihan :))</p1>
-  <br>
-  <p2>BAnanannanannananna</p2>
-<a href = "https://www.youtube.com"> Hellololololo world!!</a>
-<br>
-<img src = "" alt="莎头爆！" width="800" height="800"> 
-<button id = "mimimimi">Click me to change color!</button>
-<script src = "script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peihan's Page</title>
+</head>
+<body>
+  <div class="peepeepoopoo">
+    <h1>Hello World!</h1>
+    <p>My name is Peihan :))</p>
+    <br>
+    <p>BAnanannanannananna</p>
+    <br>
+    <a href="https://www.youtube.com" target="_blank">Hellololololo World!!</a>
+    <br>
+    <img src="" alt="莎头爆！" width="800" height="800">
+    <br>
+    <button id="mimimimi">Click me to change color!</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+// Select the button
+const button = document.getElementById("mimimimi");
+
+// Add a click event listener
+button.addEventListener("click", () => {
+  // Change the background color of the div
+  const container = document.querySelector(".peepeepoopoo");
+  container.style.backgroundColor = "lightpink";
+
+  // Optional: Log a message to the console
+  console.log("Background color changed to lightpink!");
+});
